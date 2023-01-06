@@ -34,7 +34,7 @@ def merge(list, start, mid, end):
 
 
 def is_anagram(first_string, second_string):
-    
+
     string_1 = list(first_string.lower())
     string_2 = list(second_string.lower())
 
@@ -47,7 +47,7 @@ def is_anagram(first_string, second_string):
             "".join(string_2_sorted),
             False
         )
-    
+
     return (
         "".join(string_1_sorted),
         "".join(string_2_sorted),
