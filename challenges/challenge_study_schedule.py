@@ -5,7 +5,7 @@ def study_schedule(permanence_period, target_time=None):
         for enter, exit in permanence_period:
             if enter <= target_time <= exit:
                 students += 1
-        
+
         return students
     except TypeError:
         return None

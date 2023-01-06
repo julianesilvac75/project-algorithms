@@ -11,6 +11,6 @@ def test_encrypt_message():
 
     with pytest.raises(TypeError, match="tipo inválido para key"):
         encrypt_message(message, "key")
-    
+
     with pytest.raises(TypeError, match="tipo inválido para message"):
         encrypt_message(1234, 10)
